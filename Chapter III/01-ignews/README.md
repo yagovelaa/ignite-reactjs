@@ -47,7 +47,7 @@ This project was made using the following technologies:
 
 ```bash
 # Clone the Repository
-$ git@github.com:YagoVela/ignite-reactjs.git
+$ git@github.com:yagovelaa/ignite-reactjs.git
 ```
 
 ```bash
