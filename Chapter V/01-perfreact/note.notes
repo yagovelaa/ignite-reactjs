@@ -1,0 +1,29 @@
+# Formas de Renderização
+  -> Pai para filho
+    <Pai>
+      <Filho />
+    </Pai>
+    Quando tem alguma alteração no pai, o filho rederiza automaticamente
+
+  -> Propriedade
+    <Pai>
+      <Filho title="" />
+    </Pai>
+    Quando a Propriedade mudar renderiza automaticamente
+
+  -> Hooks (useState, useContext, useReducer)
+    Sempre que os valores do hooks mudarem renderiza novamente
+
+# Fluxo de Renderização
+
+1. Gerar uma nova versão do componente que precisa ser renderizado;
+2. Comparar essa nova versão com a versão anterior já salva na página;
+3. Se houver alteração, o React 'renderiza' essa nova versão em tela;
+
+Como o react verifica se houve alteração ou não?
+ -> o react usa um algoritmo reconciliação e calcula se uma estrutura é igual a outra
+  -> exemplo de funcionamento
+    <h1 className="title"> text </h1> arvore antes 
+    <h1 className="text"> text </h1> arvore depois
+    -> o react consegue verificar que a única coisa que mudou foi a props do className, então ao inves de renderizar
+    toda a tag h1, rederiza mudando somente o className
