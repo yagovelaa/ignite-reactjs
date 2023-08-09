@@ -98,13 +98,13 @@
 
 ## :one: Chapter I
 
-[Challenge 1](https://github.com/YagoVela/ignite-reactjs-desafio-1): Challenge about ReactJS concepts.
+[Challenge 1](https://github.com/yagovelaa/ignite-reactjs-desafio-1): Challenge about ReactJS concepts.
 
-[Challenge 2](https://github.com/YagoVela/ignite-reactjs-desafio-2): Componentization challenge.
+[Challenge 2](https://github.com/yagovelaa/ignite-reactjs-desafio-2): Componentization challenge.
 
 ## :two: Chapter II
 
-[Challenge 3](https://github.com/YagoVela/ignite-reactjs-desafio-3): Challenge using hooks.
+[Challenge 3](https://github.com/yagovelaa/ignite-reactjs-desafio-3): Challenge using hooks.
 
 <!-- ## :three: Chapter III -->
 
